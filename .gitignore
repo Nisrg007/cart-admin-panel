@@ -7,6 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment variables - DO NOT COMMIT TO VERSION CONTROL
+.env
+.env.local
+.env.production
+.env.development
+
 node_modules
 dist
 dist-ssr
@@ -22,3 +28,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vercel
+.vercel

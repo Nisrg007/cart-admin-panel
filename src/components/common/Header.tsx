@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-hocco-primary">HOCCO</h1>
+            <h1 className="text-2xl font-bold text-hocco-primary">CART</h1>
             <span className="ml-2 text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
               Admin Panel
             </span>
