@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import Map, {
   Marker,
   Popup,
@@ -29,7 +29,7 @@ export const CartMap: React.FC<CartMapProps> = ({ carts }) => {
     fitMapToCarts
   } = useMap();
 
-  const [showPopup, setShowPopup] = useState(true);
+  const [showPopup] = useState(true);
 
 
   // Fit map to bounds when mapBounds changes
